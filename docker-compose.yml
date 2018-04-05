@@ -7,6 +7,6 @@ services:
         ports:
             - "8080:8080"
         volumes:
-            - /srv/docker/opengrok/tomcat/conf:/conf
+            - /srv/docker/opengrok/tomcat/conf:/tomcat/conf
             - /srv/docker/opengrok/opengrok:/var/opengrok
             - /var/opengrok/src:/var/opengrok/src
